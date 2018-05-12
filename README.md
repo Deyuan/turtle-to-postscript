@@ -3,20 +3,6 @@ A Logo-to-PostScript programming language translator
 
 ## Description
 This is a Logo-to-PostScript programming language translator based on flex and bison.
-* Logo
-  > https://en.wikipedia.org/wiki/Logo_(programming_language)
-* PostScript
-  > https://en.wikipedia.org/wiki/PostScript
-* LR Parser
-  > https://en.wikipedia.org/wiki/LR_parser
-* Dangling Else Problem
-  > https://en.wikipedia.org/wiki/Dangling_else
-* Flex
-  > https://en.wikipedia.org/wiki/Flex_(lexical_analyser_generator)
-* Bison
-  > https://en.wikipedia.org/wiki/GNU_bison
-* Hash Table
-  > https://en.wikipedia.org/wiki/Hash_table
 
 ## Source Code Structure
 * Makefile
@@ -35,7 +21,7 @@ This is a Logo-to-PostScript programming language translator based on flex and b
   * Demo turtle programs
 
 ## How to Run
-A turtle executable will be created by running 'make' in the root directory. The turtle executable reads a turtle program from standard input and write PostScript program to standard output.
+A turtle executable will be created by running 'make' in the root directory. The turtle executable reads a turtle program from standard input and write PostScript program to standard output. The PostScript program (\*.ps) can be viewed with PostScript viewers.
 ```
 make
 ./turtle < prog.tlt > prog.ps
@@ -49,3 +35,19 @@ make clean
 ![Image of Dragon Curve](demos/dragon_curve.png)
 * Spiral
 ![Image of Spiral](demos/spiral.png)
+
+## References
+* Logo
+  > https://en.wikipedia.org/wiki/Logo_(programming_language)
+* PostScript
+  > https://en.wikipedia.org/wiki/PostScript
+* LR Parser
+  > https://en.wikipedia.org/wiki/LR_parser
+* Dangling Else Problem
+  > https://en.wikipedia.org/wiki/Dangling_else
+* Flex
+  > https://en.wikipedia.org/wiki/Flex_(lexical_analyser_generator)
+* Bison
+  > https://en.wikipedia.org/wiki/GNU_bison
+* Hash Table
+  > https://en.wikipedia.org/wiki/Hash_table
