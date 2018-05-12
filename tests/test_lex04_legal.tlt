@@ -1,0 +1,53 @@
+// Deyuan Guo, Sep 4, 2013
+
+// Test comments
+//
+////
+        // Test spaces
+	// Test tab
+
+// Test legal tokens
+GO
+TURN
+VAR
+JUMP
+FOR
+STEP
+TO
+DO
+BEGIN
+END
+sin
+cos
+sqrt
+
+// Test punctuations
+;
++
+-
+*
+/
+(
+)
+=
+
+// Test symbols
+a
+abc
+zzz
+turtle
+longgggggggggggggggggggggggggggg
+
+// Test numbers
+0 1 2 3 4 5 6 7 8 9
+256 65536
+-1
+0123
+0.0
+1.99
+1111.1111
+-10000.999
+
+// Test expressions
+test=a+b*c-d/e+f*(sin(g)-cos(h))+sqrt(i)+100/7.7
+

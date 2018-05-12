@@ -1,0 +1,26 @@
+// Deyuan Guo, Sep 20, 2013
+
+// test while, if-else, and procedure call.
+n = 20;
+
+While n
+{
+    zigzag(10, 135);
+    IFF n > 10
+    {
+        n = n - 2;
+    } ELSE {
+        n = n - 1;
+    }
+}
+
+//  put the procedure definition to the end
+PROCEDURE zig_zag (step, angle)
+{
+  GO step;
+  TURN angle;
+  GO step;
+  TURN -angle;
+  GO step;
+}
+

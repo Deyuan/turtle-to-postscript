@@ -1,0 +1,18 @@
+// Deyuan Guo, Sep 20, 2013
+
+JUMP 80;
+
+// declaring drawing a 4 sided shape with varying angles (with four parameters)
+PROCEDURE poly (a, b, c, e) {
+GO 40;
+TURN a;
+GO 40;
+TURN b;
+GO 40;
+TURN c;
+GO 40;
+TURN d;
+}
+
+poly(80, 100, 80, 100);
+

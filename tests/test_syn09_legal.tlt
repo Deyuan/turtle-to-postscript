@@ -1,0 +1,57 @@
+// Deyuan Guo, Sep 20, 2013
+
+// Test decllist
+VAR i;
+VAR j;
+VAR k;
+
+// Test atomic
+i = 10;
+j = 5.5;
+k = i;
+k = (j);
+
+// Test factor
+k = -1;
+k = -1.5;
+k = -i;
+k = -(j);
+k = +1;
+k = +1.5;
+k = +i;
+k = +(j);
+k = sin -1;
+k = cos +(j);
+k = sqrt sin cos 0;
+
+// Test term
+k = i * j;
+k = i / j;
+k = i * i / j;
+k = i / j / -(sin j);
+
+// Test expr
+k = i + j;
+k = i - j;
+k = i * i + j / i;
+k = i * (i + j) + - (sqrt (i / j));
+
+// Test stmtlist
+BEGIN
+  i = 10;
+  j = 10;
+END
+
+GO i + j;
+JUMP 10;
+TURN 10;
+
+FOR i = 5 STEP 5 TO 100 DO
+BEGIN
+  GO j;
+  TURN i;
+  JUMP j + sin j;
+  TURN i;
+  j = j + 1;
+END
+

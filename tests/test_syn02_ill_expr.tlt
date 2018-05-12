@@ -1,0 +1,11 @@
+// Deyuan Guo, Sep 20, 2013
+
+// Test illegal expr
+VAR i;
+VAR j;
+VAR k;
+
+i = - sin 1;
+j = i + i
+k = ++j;
+

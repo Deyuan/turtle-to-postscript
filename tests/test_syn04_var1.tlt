@@ -1,0 +1,5 @@
+// Deyuan Guo, Sep 20, 2013
+
+VAR i;
+i = 1;
+IF (i) {GO 10;}

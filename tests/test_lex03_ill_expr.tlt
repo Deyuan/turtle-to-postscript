@@ -1,0 +1,12 @@
+// Deyuan Guo, Sep 4, 2013
+
+// Test illegal punctuations
+# @ ! & [ ] < > { } . , _
+
+// Test illegal expressions
+c++
+1=0 
+BEGIN-END
+++--**//((()==
+/* test */
+

@@ -1,0 +1,14 @@
+// Deyuan Guo, Sep 20, 2013
+
+VAR i;
+GO 100; TURN 90; GO 100;
+
+i = 0;
+IF (i == 1) {GO 10;} ELSE {TURN -90;}
+i = 1;
+IF (i == 1) {GO 10;} ELSE {TURN -90;}
+i = 0;
+IF (i == 1) {GO 10;} ELSE {TURN -90;}
+i = 1;
+IF (i == 1) {GO 10;} ELSE {TURN -90;}
+

@@ -1,0 +1,29 @@
+// Deyuan Guo, Sep 4, 2013
+
+// Test illegal symbols
+Go
+G0
+SIN
+S1N
+SlN
+COS
+SQRT
+BeGiN
+turtle_tail
+Position
+
+// Test illegal symbol names
+x0
+get1coin
+7ups
+life-time
+
+GOSTEP
+DOJUMP
+VARsqrt
+VARsqrtaaaaa
+JUMPandsinandsqrt
+
+// Test long symbols
+letsseehowlongasymbolnamecanbeletsseehowlongasymbolnamecanbeletsseehowlongasymbolnamecanbeletsseehowlongasymbolnamecanbeletsseehowlongasymbolnamecanbeletsseehowlongasymbolnamecanbe
+

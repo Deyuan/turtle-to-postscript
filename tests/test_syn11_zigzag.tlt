@@ -1,0 +1,28 @@
+// Deyuan Guo, Sep 20, 2013
+
+VAR n;
+
+// user defined procedure
+PROCEDURE zigzag (step, angle)
+{
+  GO step;
+  TURN angle;
+  GO step;
+  TURN -angle;
+  GO step;
+}
+
+// test while, if-else, and procedure call.
+n = 20;
+
+WHILE (n)
+{
+    zigzag(10, 135);
+    IF (n > 10)
+    {
+        n = n - 2;
+    } ELSE {
+        n = n - 1;
+    }
+}
+

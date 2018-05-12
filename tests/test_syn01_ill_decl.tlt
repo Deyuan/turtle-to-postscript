@@ -1,0 +1,6 @@
+// Deyuan Guo, Sep 20, 2013
+
+// Test illegal decllist
+VAR i, j;
+VAR i = 0;
+

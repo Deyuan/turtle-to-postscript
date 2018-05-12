@@ -1,0 +1,25 @@
+
+// File: fibonacci_monster.tlt
+// Fibonacci Monster
+// Author: Deyuan Guo
+
+VAR i;
+VAR j;
+VAR k;
+VAR tmp;
+
+j = 1;
+k = 1;
+
+UP; GO 350; TURN 90; GO 600; TURN -90; DOWN;
+
+FOR i = 0 STEP 1 TO 180 DO {
+  tmp = j;
+  j = j + k;
+  k = tmp;
+  TURN -k;
+  GO 20;
+  IF (k > 360) k = k - 360;
+  IF (j > 360) j = j - 360;
+}
+
