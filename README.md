@@ -31,7 +31,7 @@ make clean
 ## Demos
 * Fibonacci Monster
 ![Image of Fibonacci Monster](demos/fibonacci_monster.png)
-* Dragon curve
+* Dragon Curve
 ![Image of Dragon Curve](demos/dragon_curve.png)
 * Spiral
 ![Image of Spiral](demos/spiral.png)
@@ -49,5 +49,3 @@ make clean
   > https://en.wikipedia.org/wiki/Flex_(lexical_analyser_generator)
 * Bison
   > https://en.wikipedia.org/wiki/GNU_bison
-* Hash Table
-  > https://en.wikipedia.org/wiki/Hash_table
