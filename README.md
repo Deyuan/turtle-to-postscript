@@ -2,7 +2,7 @@
 A Logo-to-PostScript programming language translator
 
 ## Description
-This is a Logo-to-PostScript programming language translator based on flex and bison.
+This is a Logo-to-PostScript programming language translator based on `flex` and `bison`.
 
 ## Source Code Structure
 * Makefile
@@ -10,9 +10,9 @@ This is a Logo-to-PostScript programming language translator based on flex and b
   * turtle.l
     * Lexical parser of the turtle language
   * turtle.y
-    * Syntax parser of the turtle language. It uses LR parsing to resolve the dangling else problem.
+    * Syntax parser of the turtle language. It uses LR parsing to resolve the dangling else problem
   * symtab.c, symtab.h
-    * A hash-table based symbol table. The hash table is implemented with separate chaining with linked lists.
+    * A hash-table based symbol table. The hash table is implemented with separate chaining with linked lists
   * token.h
     * An alternative definition of tokens used for developing lexical parser
 * tests/
@@ -21,7 +21,7 @@ This is a Logo-to-PostScript programming language translator based on flex and b
   * Demo turtle programs
 
 ## How to Run
-A turtle executable will be created by running 'make' in the root directory. The turtle executable reads a turtle program from standard input and write PostScript program to standard output. The PostScript program (\*.ps) can be viewed with PostScript viewers.
+A `turtle` executable will be created by running `make` in the root directory. The `turtle` executable reads a turtle program from standard input and write a PostScript program to standard output. PostScript programs (\*.ps) can be viewed with PostScript viewers.
 ```
 make
 ./turtle < prog.tlt > prog.ps
